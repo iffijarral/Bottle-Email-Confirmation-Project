@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: aliceblue;
+}
+form, h1 {
+  margin-inline: auto;
+  width: fit-content;
+}
+form {
+  width: min(30vw, 20rem);            
+}
+form div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}        
+input {
+  padding: .5rem;
+}
+.authentication_action {
+  display: flex; 
+  flex-direction:row; 
+  gap: .3rem
+}
